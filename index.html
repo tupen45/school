@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- title -->
+    <title>Bevy Lamp</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+<style>
+.blurred{
+	filter: blur(5px);
+	transition:filter 0.3s ease;
+}
+ .hero-single{
+    height: 75vh;
+}
+
+.marquee {
+	background-color:#00984b;
+	color:#fff;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 1s linear infinite;
+}
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.sstext{
+    color:#ebebe8;
+}
+
+.ss_background{
+	
+  width: 100%;
+  height: auto;
+  background:#0b662d;
+   padding:40px;
+  background-image: 
+    url('assets/img/bevylamp/svg/certificate.svg'), 
+    url('assets/img/bevylamp/svg/lab.svg'),
+    url('assets/img/bevylamp/svg/awrd1st.svg'),
+    url('assets/img/bevylamp/svg/books.svg');
+  
+  background-size: 70px 70px, 70px 70px , 70px 70px, 70px 70px; /* Sizes of the SVGs */
+  background-position:  10% 20% ,  90% 80% , 10% 80%, 90% 20% ;  /* Positioning the SVGs */
+  background-repeat: no-repeat, no-repeat, no-repeat,no-repeat; /* SVG does not repeat, second one does */ 
+  z-index: -1;   
+}
+
+
+.ss_bbox {
+   transition: transform 0.3s ease;
+}
+
+.ss_bbox:hover {
+  transform: scale(1.1); /* Increase size by 20% */
+}
+
+
+
+</style>
+</head>
+
+<body class="home-3">
+<div class="background-bl">
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="loader-book">
+            <div class="loader-book-page"></div>
+            <div class="loader-book-page"></div>
+            <div class="loader-book-page"></div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- header area -->
+    <style>
+.logo {
+	max-width: 40%; /* Ensures it doesn’t overflow */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Prevents extra space below inline images */
+	
+}
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .logo {
+       
+    }
+}
+
+/* Mobile phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .logo {
+       
+    }
+}
+
+
+
+</style>
+
+<header class="header">
+        <!-- header top -->
+		 <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrap">
+                    <div class="header-top-left">
+                                                <div class="header-top-social">
+                            <span>Follow Us: </span>
+                            <a href="https://www.facebook.com/share/15tiiCE3Rt/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>                    </div>
+                    <div class="header-top-right">
+                        						<div class="header-top-contact">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="far fa-location-dot"></i> Testa More , Chopra , Uttar Dinajpur</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="far fa-envelopes"></i> <span class="" data-cfemail="">bevylamp2@gmail.com</span></a>
+                                </li>
+                                <li>
+                                    <a href="tel:+919083344600"><i class="far fa-phone-volume"></i>9083344600 </a>
+                                    <a href="tel:+919083025574"><i class="far fa-phone-volume"></i>9083025574 </a>
+                                </li>
+                            </ul>
+                        </div>                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="main-navigation">
+            <nav class="navbar navbar-expand-lg">
+				<div class="container position-relative">
+                    <a class="navbar-brand" href="index.php">
+                        <img class="logo" src="assets/img/logo/logo.png" alt="logo">
+                    </a>
+                    <div class="mobile-menu-right">                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-mobile-icon"><i class="far fa-bars"></i></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main_nav">
+                         <ul class="navbar-nav">
+							<li class="nav-item" >
+                                <a class="nav-link" href="https://bevylamp.in/">Home</a>                               
+                            </li>
+							<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+                                <ul class="dropdown-menu fade-down">
+                                    <li><a class="dropdown-item" href="https://bevylamp.in/event">Events</a></li>
+                                    <li><a class="dropdown-item" href="https://bevylamp.in/teacher">Teachers</a></li>
+                                    <li><a class="dropdown-item" href="https://bevylamp.in/gallery">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="https://bevylamp.in/testimonial">Testimonials</a></li>
+                                </ul>
+                            </li>
+							<li class="nav-item" >
+                                <a class="nav-link" href="https://bevylamp.in/about">About Us</a>                               
+                            </li>
+							<li class="nav-item" >
+                                <a class="nav-link" href="https://bevylamp.in/contact">Contact</a>                               
+                            </li>
+                            <li class="nav-item" >
+                                 <a href="https://bevylamp.in/app" class="theme-btn mt-3" style=""><span
+                                        class="fal fa-sign-in"></span> LogIn</a>                              
+                            </li>
+							<!-- <li class="nav-item">
+                                <a class="nav-link" href="course.php">Courses</a>                               
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php">Academics</a>
+                                
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+                                <ul class="dropdown-menu fade-down">
+                                    <li><a class="dropdown-item" href="about.php">About Us</a></li>
+                                    <li><a class="dropdown-item" href="event.php">Events</a></li>
+                                    <li><a class="dropdown-item" href="teacher.php">Teachers</a></li>
+                                    <li><a class="dropdown-item" href="gallery.php">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="testimonial.php">Testimonials</a></li>
+                                   
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Admissions</a>
+                                <ul class="dropdown-menu fade-down">
+                                    <li><a class="dropdown-item" href="application-form.php">Application Form</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Our Campus</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="campus-tour.php">Campus Tour</a></li>
+                                            <li><a class="dropdown-item" href="campus-life.php">Campus Life</a></li>
+                                            <li><a class="dropdown-item" href="notice-board.php">Notice Board</a></li>
+                                            <li><a class="dropdown-item" href="student-activities.php">Student
+                                                    Activities</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="facility.php">Our Facilities</a></li>
+                                    <li><a class="dropdown-item" href="tuition-fee.php">Tuition Fees</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>  -->
+                        </ul>
+						<div class="nav-right">
+                           
+                            <div class="nav-right-btn mt-2">
+                                <a href="appointment.php" class="theme-btn"><span
+                                        class="fal fa-pencil"></span>Get Appointment</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                         
+            </nav>
+        </div>
+    </header>    <!-- header area end -->
+
+
+    <!-- popup search -->
+    <div class="search-popup">
+        <button class="close-search"><span class="far fa-times"></span></button>
+        <form action="#">
+            <div class="form-group">
+                <input type="search" name="search-field" placeholder="Search Here..." required>
+                <button type="submit"><i class="far fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- popup search end -->
+
+
+
+    <main class="main">
+        <!-- hero slider -->
+        <div class="hero-section">
+            <div class="hero-slider owl-carousel owl-theme">
+                <div class="hero-single" style="background: url(assets/img/slider/class.jpg)">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12 col-lg-7">
+                                <div class="hero-content">
+                                    <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
+                                        <i class="far fa-book-open-reader"></i>Welcome To <span style="font-size:75px;">B</span>evyLamp
+                                    </h6>
+                                    <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                                        Start Your Beautiful And <span>Bright</span> Future
+                                    </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".75s">
+                                        ...
+                                    </p>
+                                    <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                        <a href="about.html" class="theme-btn">About More<i
+                                                class="fas fa-arrow-right-long"></i></a>
+                                        <a href="contact.html" class="theme-btn theme-btn2">Learn More<i
+                                                class="fas fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-single" style="background: url(assets/img/slider/banner2.jpeg)">
+                    
+                </div>
+                <div class="hero-single" style="background: url(assets/img/slider/building.jpg)">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12 col-lg-7">
+                                <div class="hero-content">
+                                    <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
+                                        <i class="far fa-book-open-reader"></i>Welcome To <span style="font-size:75px;">B</span>evyLamp
+                                    </h6>
+                                    <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                                        Start Your Beautiful And <span>Bright</span> Future
+                                    </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".75s">
+                                        There are many variations of passages orem psum available but the majority have
+                                        suffered alteration in some repeat predefined chunks form
+                                        injected humour.
+                                    </p>
+                                    <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                        <a href="about.html" class="theme-btn">About More<i
+                                                class="fas fa-arrow-right-long"></i></a>
+                                        <a href="contact.html" class="theme-btn theme-btn2">Learn More<i
+                                                class="fas fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<p class="marquee">
+  <span> Academic Addmision for 2025-2026 will start from November || Online Payment System is now available</span>
+</p>
+		
+        <!-- hero slider end -->
+
+
+
+      
+
+
+        <!-- about area -->
+        <div class="about-area py-120">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
+                            <div class="about-img">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <img height="100px" class="img-1" src="assets/img/bevylamp/stair.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="img-2" src="assets/img/bevylamp/ghabits.jpg" alt="">
+                                        <img class="img-3 mt-4" src="assets/img/bevylamp/drawing.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+                            <div class="site-heading mb-3">
+                                
+                                <h2 class="site-title">
+								 Welcome to BevyLamp <span> Illuminating the Path </span>of Knowledge
+                                   
+                                </h2>
+                            </div>
+                            <p class="about-text">
+
+At BevyLamp, we believe in the power of education to shape not only the future of our students but also the entire society. Our motto, "To Show the Path to Enlighten the Society through best Education" drives us to nurture young minds from LKG all the way through to Class 8. We are committed to fostering intellectual, emotional, and social growth in every child, guiding them toward a brighter, more enlightened future.
+                            </p>
+                       <!--     <div class="about-content">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="about-item">
+                                            <div class="about-item-icon">
+                                                <img src="assets/img/icon/open-book.svg" alt="">
+                                            </div>
+                                            <div class="about-item-content">
+                                                <h5>Edukation Services</h5>
+                                                <p>It is a long established fact that reader will to using content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="about-item">
+                                            <div class="about-item-icon">
+                                                <img src="assets/img/icon/global-education.svg" alt="">
+                                            </div>
+                                            <div class="about-item-content">
+                                                <h5>International Hubs</h5>
+                                                <p>It is a long established fact that reader will to using content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="about-quote">
+                                            <p>It is a long established fact that a reader will be distracted by the
+                                                content of
+                                                a page when looking at its reader for the long words layout.</p>
+                                            <i class="far fa-quote-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        -->
+                            <div class="about-bottom">
+                                <a href="about.php" class="theme-btn">Discover More<i
+                                        class="fas fa-arrow-right-long"></i></a>
+                                <div class="about-phone">
+                                    <div class="icon"><i class="fal fa-headset"></i></div>
+                                    <div class="number">
+                                        <span>Call Now</span>
+                                        <h6><a href="tel:+919083344600">9083344600</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about area end -->
+  <!-- feature area -->
+        <div class="feature-area  pb-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div class="card text-bg-info mb-3 ss_bbox" style="max-width: 100%;height:auto">
+                          <div class="card-header text-center"> <h4 class="card-title sstext">Our Moto</h4></div>
+                          <div class="card-body">
+                           
+                            <p class="card-text sstext">At Bevylamp School, we believe in the power of knowledge, unity, and growth. As a co-educational institution, we foster an inclusive and dynamic learning environment where students learn together, shine together, and rise together.Guided by the light of education, we are committed to igniting young minds and inspiring bright futures. Our holistic approach to learning nurtures academic excellence, creativity, and character, ensuring that every student is well-prepared to navigate the challenges of tomorrow.<br></br>
+                        
+                        🔹 Lighting the Path to Knowledge and Success 🔹</p>
+                          </div>
+                        </div>
+                    <!--    <div class="feature-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="feature-content">
+                                <h4 class="feature-title">Our Moto</h4>
+                                <p>At Bevylamp School, we believe in the power of knowledge, unity, and growth. As a co-educational institution, we foster an inclusive and dynamic learning environment where students learn together, shine together, and rise together.
+
+Guided by the light of education, we are committed to igniting young minds and inspiring bright futures. Our holistic approach to learning nurtures academic excellence, creativity, and character, ensuring that every student is well-prepared to navigate the challenges of tomorrow.</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                         <div class="card text-bg-warning mb-3 ss_bbox" style="max-width: 100%;">
+                          <div class="card-header text-center"> <h4 class="card-title sstext">Our Vision</h4></div>
+                          <div class="card-body">
+                           
+                            <p class="card-text sstext">At Bevylamp School, our vision is to create a vibrant community of learners where curiosity thrives, knowledge illuminates, and character leads. We aspire to be a place where students are empowered to explore, innovate, and excel, preparing them to become confident, compassionate, and responsible global citizens.With a strong foundation in academic excellence, creativity, and leadership, we envision a future where every student shines brightly, using their skills and values to make a positive impact on the world. <br></br>
+                            🔹 United in Learning, Bright in Spirit 🔹</p>
+                          </div>
+                        </div>
+                      
+                    </div>
+                   
+                   
+                </div>
+            </div>
+        </div>
+        <!-- feature area end -->
+
+        <!-- counter area -->
+		<div class="container-fluid ss_background">
+		    
+		    
+		     <div class="testimonial-area bg pt-80 pb-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="site-heading text-center">
+                           
+                            <h2 class="site-title">Let's Introduce with our <span>Teachers</span></h2>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slider owl-carousel owl-theme">
+                    <div class="testimonial-item">
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-quote">
+                            <p>
+                                There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
+                            </p>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-author-img">
+                                <img src="assets/img/testimonial/01.jpg" alt="">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Anthony Nicoll</h4>
+                                <p>Student</p>
+                            </div>
+                        </div>
+                        <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-quote">
+                            <p>
+                                There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
+                            </p>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-author-img">
+                                <img src="assets/img/testimonial/02.jpg" alt="">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Richard Lock</h4>
+                                <p>Student</p>
+                            </div>
+                        </div>
+                        <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-quote">
+                            <p>
+                                There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
+                            </p>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-author-img">
+                                <img src="assets/img/testimonial/03.jpg" alt="">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Randal Grand</h4>
+                                <p>Student</p>
+                            </div>
+                        </div>
+                        <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-quote">
+                            <p>
+                                There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
+                            </p>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-author-img">
+                                <img src="assets/img/testimonial/04.jpg" alt="">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Edward Miles</h4>
+                                <p>Student</p>
+                            </div>
+                        </div>
+                        <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+                    </div>
+                    <div class="testimonial-item">
+                       
+                           
+                            <div class="card" style="width: 12rem;">
+							  <img src="assets/img/bevylamp/teachers/founder.jpeg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Founder</p>
+							  </div>
+							</div>
+                            
+                            <div>
+                                <p>"Education is not the learning of facts, but the training of the mind to think." – Albert Einstein</p>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+		    
+		    
+		
+		</div>
+        
+        <!-- counter area end -->
+
+
+        <!-- course-area -->
+        <div class="course-area py-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="site-heading text-center">
+                            <h2 class="site-title">Let's Check Our <span>Facilities</span></h2>
+                            <p>Creating the Perfect Environment for Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="col-md-6 col-lg-4">
+                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="course-img">
+                                <span class="course-tag"><i class="far fa-bookmark"></i> Transport</span>
+                                <img src="assets/img/course/01.jpg" alt="">
+                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                            </div>
+                            <div class="course-content pt-20">
+                                
+                                <h4 class="course-title">
+                                    <a href="course-single.html">Safe & Reliable School Transport</a>
+                                </h4>
+                                <p class="course-text">
+                                   we provide a fleet of well-maintained school buses to ensure safe and comfortable transportation for our students. Our buses cover multiple routes, making it easy for students to commute from school without any hassle.
+                                </p>
+                                <div class="course-bottom">
+                                   
+                                    <span class="course-price">Read More...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="course-img">
+                                <span class="course-tag"><i class="far fa-bookmark"></i> 24*7 CCTV</span>
+                                <img src="assets/img/course/01.jpg" alt="">
+                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                            </div>
+                            <div class="course-content pt-20">
+                                
+                                <h4 class="course-title">
+                                    <a href="course-single.html">Safety & Security</a>
+                                </h4>
+                                <p class="course-text">
+                                   The safety of our students is our top priority. Our campus is secured with CCTV surveillance, trained security personnel, and a strict visitor management system.
+                                </p>
+                                <div class="course-bottom">
+                                   
+                                    <span class="course-price">Read More...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-4">
+                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="course-img">
+                                <span class="course-tag"><i class="far fa-bookmark"></i> Meals</span>
+                                <img src="assets/img/course/01.jpg" alt="">
+                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                            </div>
+                            <div class="course-content pt-20">
+                                
+                                <h4 class="course-title">
+                                    <a href="course-single.html">Cafeteria & Dining</a>
+                                </h4>
+                                <p class="course-text">
+                                   Our hygienic cafeteria serves nutritious and balanced meals, ensuring students have the energy they need to focus and perform at their best.
+                                </p>
+                                <div class="course-bottom">
+                                   
+                                    <span class="course-price">Read More...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="course-img">
+                                <span class="course-tag"><i class="far fa-bookmark"></i> Music</span>
+                                <img src="assets/img/course/01.jpg" alt="">
+                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                            </div>
+                            <div class="course-content pt-20">
+                                
+                                <h4 class="course-title">
+                                    <a href="course-single.html">Arts & Music Classes</a>
+                                </h4>
+                                <p class="course-text">
+                                   Our dedicated arts and music studios nurture creativity, allowing students to explore their talents in painting, sculpture, drama, and various musical instruments.
+                                </p>
+                                <div class="course-bottom">
+                                   
+                                    <span class="course-price">Read More...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="course-img">
+                                <span class="course-tag"><i class="far fa-bookmark"></i> Modern Classes</span>
+                                <img src="assets/img/course/01.jpg" alt="">
+                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                            </div>
+                            <div class="course-content pt-20">
+                                
+                                <h4 class="course-title">
+                                    <a href="course-single.html">State-of-the-Art Classrooms</a>
+                                </h4>
+                                <p class="course-text">
+                                   Our spacious and well-lit classrooms are equipped with smart boards, ergonomic furniture, and advanced learning tools to create an interactive and engaging learning environment.
+                                </p>
+                                <div class="course-bottom">
+                                   
+                                    <span class="course-price">Read More...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-4">
+                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="course-img">
+                                <span class="course-tag"><i class="far fa-bookmark"></i> Computer Lab</span>
+                                <img src="assets/img/course/01.jpg" alt="">
+                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                            </div>
+                            <div class="course-content pt-20">
+                                
+                                <h4 class="course-title">
+                                    <a href="course-single.html">Science & Computer Labs</a>
+                                </h4>
+                                <p class="course-text">
+                                   We have fully equipped science laboratories and a high-tech computer lab that provide hands-on learning experiences in subjects like Physics, Chemistry, Biology, and Computer Science.
+                                </p>
+                                <div class="course-bottom">
+                                   
+                                    <span class="course-price">Read More...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- course-area -->
+
+
+        <!-- video-area -->
+      <!--  <div class="video-area">
+            <div class="container">
+                <div class="video-content" style="background-image: url(assets/img/video/01.jpg);">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="video-wrapper">
+                                <a class="play-btn popup-youtube" href="https://www.youtube.com/watch?v=ckHzmP1evNU">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <!-- video-area end -->
+
+
+        <!-- gallery-area -->
+        <div class="gallery-area py-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="site-heading text-center">
+                            <h2 class="site-title">Our Photo <a style="color:blue" href="https://bevylamp.in/gallery">Gallery</a></h2>
+                            <p>Let's Explore the vibrant and dynamic life of our BevyLamp Family</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row popup-gallery">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay=".25s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery/01.jpeg" alt="">
+                            </div>
+                            <div class="gallery-content">
+                                <a class="popup-img gallery-link" href="assets/img/gallery/01.jpeg"><i
+                                        class="fal fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery/02.jpeg" alt="">
+                            </div>
+                            <div class="gallery-content">
+                                <a class="popup-img gallery-link" href="assets/img/gallery/02.jpeg"><i
+                                        class="fal fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay=".50s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery/03.jpeg" alt="">
+                            </div>
+                            <div class="gallery-content">
+                                <a class="popup-img gallery-link" href="assets/img/gallery/03.jpeg"><i
+                                        class="fal fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery/04.jpeg" alt="">
+                            </div>
+                            <div class="gallery-content">
+                                <a class="popup-img gallery-link" href="assets/img/gallery/04.jpeg"><i
+                                        class="fal fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay=".75s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery/05.jpeg" alt="">
+                            </div>
+                            <div class="gallery-content">
+                                <a class="popup-img gallery-link" href="assets/img/gallery/05.jpeg"><i
+                                        class="fal fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery/06.jpeg" alt="">
+                            </div>
+                            <div class="gallery-content">
+                                <a class="popup-img gallery-link" href="assets/img/gallery/06.jpeg"><i
+                                        class="fal fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery-area end -->
+
+
+        <!-- enroll area-->
+       
+        <!-- enroll area end -->
+
+
+
+
+        <!-- faq area -->
+        <div class="faq-area py-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="faq-right">
+                            <div class="site-heading mb-3">
+                                <span class="site-title-tagline justify-content-start"><i class="far fa-book-open-reader"></i> Faq's</span>
+                                <h2 class="site-title my-3">General <span>frequently</span> asked questions</h2>
+                            </div>
+                            <p class="mb-3">There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected humour, or
+                                randomised words which don't look even.</p>
+                            <p class="mb-4">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                            </p>
+                            <a href="contact.html" class="theme-btn mt-2">Have Any Question ?</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span><i class="far fa-question"></i></span> How Can do I apply ?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We denounce with righteous indignation and dislike men who
+                                        are so beguiled and demoralized by the charms of pleasure of the moment so
+                                        blinded by desire ante odio dignissim quam vitae pulvinar turpis.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span><i class="far fa-question"></i></span> How Can I Become A Member
+                                        ?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We denounce with righteous indignation and dislike men who
+                                        are so beguiled and demoralized by the charms of pleasure of the moment so
+                                        blinded by desire ante odio dignissim quam vitae pulvinar turpis.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span><i class="far fa-question"></i></span> What Payment Gateway You Support ?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We denounce with righteous indignation and dislike men who
+                                        are so beguiled and demoralized by the charms of pleasure of the moment so
+                                        blinded by desire ante odio dignissim quam vitae pulvinar turpis.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <span><i class="far fa-question"></i></span> How Can I Cancel My Request ?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We denounce with righteous indignation and dislike men who
+                                        are so beguiled and demoralized by the charms of pleasure of the moment so
+                                        blinded by desire ante odio dignissim quam vitae pulvinar turpis.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- faq area end -->
+
+
+    </main>
+    <!-- footer area -->
+    <footer class="footer-area">
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row footer-widget-wrapper pt-100 pb-70">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="footer-widget-box about-us">
+                            <a href="#" class="footer-logo">
+                                <img src="assets/img/logo/logo.png" alt="">
+                            </a>
+                            <p class="mb-3">
+                                We are many variations of passages available but the majority have suffered alteration
+                                in some form by injected humour words believable.
+                            </p>
+                            <ul class="footer-contact">
+                                <li><a href="tel:+21236547898"><i class="far fa-phone"></i>+91 8372850808</a></li>
+                                <li><i class="far fa-map-marker-alt"></i>Suravipally, Chopra, Uttar Dinajpur</li>
+                                <li><a href="#"><i class="far fa-envelope"></i><span>xyz@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="footer-widget-box list">
+                            <h4 class="footer-widget-title">Quick Links</h4>
+                            <ul class="footer-list">
+                                <li><a href="#"><i class="fas fa-caret-right"></i> About Us</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Testimonials</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Terms Of Service</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Privacy policy</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Update News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-widget-box list">
+                            <h4 class="footer-widget-title">Our Campus</h4>
+                            <ul class="footer-list">
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Campus Safety</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Student Activities</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Academic Department</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Planning & Administration</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Office Of The Chancellor</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Facility Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-widget-box list">
+                            <h4 class="footer-widget-title">Newsletter</h4>
+                            <div class="footer-newsletter">
+                                <p>Subscribe Our Newsletter To Get Latest Update And News</p>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="email" class="form-control" placeholder="Your Email">
+                                        <button class="theme-btn" type="submit">
+                                            Subscribe Now <i class="far fa-paper-plane"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright-wrapper">
+                    <div class="row">
+                        <div class="col-md-6 align-self-center">
+                            <p class="copyright-text">
+                                &copy; Copyright <span id="date"></span> <a href="#">BevyLamp </a> All Rights Reserved.
+                            </p>
+                        </div>
+                        <div class="col-md-6 align-self-center">
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    <!-- footer area end -->
+
+    <!-- scroll-top -->
+    <a href="#" id="scroll-top"><i class="far fa-arrow-up-from-arc"></i></a>
+    <!-- scroll-top end -->
+</div>
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+		  <div class="modal-header">
+			
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4 col-4 col-sm-5"> <img class="popupimg" style="height:90px; width:90px" src="assets/img/logo/logo.png" alt="logo"></div>
+						<div class="col-md-8 col-8 col-sm-7 text-center" ><span><b>Admission Open for 2025-26</b> <br>Click here to complete the online registration process.</span><br><a type="button" class="btn btn-outline-success" href="application-form.php">Click Here</a>
+						</div>
+					</div>
+				</div>			 
+			</div>
+		  </div>
+		</div>
+</div>
+
+
+
+    <!-- js -->
+    
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script>
+		$(document).ready(function(){
+			setTimeout(function(){				
+				$('.background-bl').addClass('blurred');
+				$('#staticBackdrop').modal('show');
+			},3000);
+			
+			$('#staticBackdrop').on('hidden.bs.modal', function(){
+				$('.background-bl').removeClass('blurred');
+			})
+		});
+	</script>
+
+</body>
+
+</html>
