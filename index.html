@@ -8,12 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
+     <!-- Font Awesome 6 CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+  integrity="sha512-dNmEQKX8XG5QXx3MLtMZZrtdlYtJcPFTXlfyFBVXZivbd8Bi2CS3jOv+hP5qOcE6TfuvacQBFQUeZjV0HEzPg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ✅ Only one Font Awesome 6.5.0 (Free) CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-B8N0bH0wghgK6N5K4/4lOK8Z7UoRlVL3LEFCJXc7zq1MHOwQyqlRx3ebAnFtIjUqg4oq5hAOG0OPIDDeLjYI9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- title -->
     <title>Bevy Lamp</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.png">
+
 
     <!-- css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -22,6 +29,8 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
 <style>
 .blurred{
 	filter: blur(5px);
@@ -43,7 +52,7 @@
 .marquee span {
   display: inline-block;
   padding-left: 100%;
-  animation: marquee 1s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 
 
@@ -121,14 +130,14 @@
 /* Tablets (max-width: 768px) */
 @media screen and (max-width: 768px) {
     .logo {
-       
+       width: 30px;
     }
 }
 
 /* Mobile phones (max-width: 480px) */
 @media screen and (max-width: 480px) {
     .logo {
-       
+       width: 30px;
     }
 }
 
@@ -153,14 +162,14 @@
                         						<div class="header-top-contact">
                             <ul>
                                 <li>
-                                    <a href="#"><i class="far fa-location-dot"></i> Testa More , Chopra , Uttar Dinajpur</a>
+                                    <a href="#"><i class="fas fa-location-dot"></i> Testa More , Chopra , Uttar Dinajpur</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="far fa-envelopes"></i> <span class="" data-cfemail="">bevylamp2@gmail.com</span></a>
+                                    <a href="#"><i class="fas fa-envelope"></i> <span class="" data-cfemail="">bevylamp2@gmail.com</span></a>
                                 </li>
                                 <li>
-                                    <a href="tel:+919083344600"><i class="far fa-phone-volume"></i>9083344600 </a>
-                                    <a href="tel:+919083025574"><i class="far fa-phone-volume"></i>9083025574 </a>
+                                    <a href="tel:+919083344600"><i class="fas fa-phone-volume"></i>9083344600 </a>
+                                    <a href="tel:+919083025574"><i class="fas fa-phone-volume"></i>9083025574 </a>
                                 </li>
                             </ul>
                         </div>                    </div>
@@ -177,13 +186,13 @@
                     <div class="mobile-menu-right">                        
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-mobile-icon"><i class="far fa-bars"></i></span>
+                            <span class="navbar-toggler-mobile-icon"><i class="fas fa-bars"></i></span>
                         </button>
                     </div>
                     <div class="collapse navbar-collapse" id="main_nav">
                          <ul class="navbar-nav">
 							<li class="nav-item" >
-                                <a class="nav-link" href="https://bevylamp.in/">Home</a>                               
+                                <a class="nav-link" href="">Home</a>                               
                             </li>
 							<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
@@ -195,14 +204,14 @@
                                 </ul>
                             </li>
 							<li class="nav-item" >
-                                <a class="nav-link" href="https://bevylamp.in/about">About Us</a>                               
+                                <a class="nav-link" href="/about">About Us</a>                               
                             </li>
 							<li class="nav-item" >
-                                <a class="nav-link" href="https://bevylamp.in/contact">Contact</a>                               
+                                <a class="nav-link" href="/contact">Contact</a>                               
                             </li>
                             <li class="nav-item" >
-                                 <a href="https://bevylamp.in/app" class="theme-btn mt-3" style=""><span
-                                        class="fal fa-sign-in"></span> LogIn</a>                              
+                                 <a href="" class="theme-btn mt-3" ><span
+                                        class="fas fa-sign-in-alt"></span> LogIn</a>                              
                             </li>
 							<!-- <li class="nav-item">
                                 <a class="nav-link" href="course.php">Courses</a>                               
@@ -247,8 +256,8 @@
 						<div class="nav-right">
                            
                             <div class="nav-right-btn mt-2">
-                                <a href="appointment.php" class="theme-btn"><span
-                                        class="fal fa-pencil"></span>Get Appointment</a>
+                                <a href="" class="theme-btn"><span
+                                        class="fas fa-pencil"></span>Get Appointment</a>
                             </div>
                         </div>
 
@@ -262,7 +271,7 @@
 
     <!-- popup search -->
     <div class="search-popup">
-        <button class="close-search"><span class="far fa-times"></span></button>
+        <button class="close-search"><span class="fas fa-times"></span></button>
         <form action="#">
             <div class="form-group">
                 <input type="search" name="search-field" placeholder="Search Here..." required>
@@ -284,7 +293,7 @@
                             <div class="col-md-12 col-lg-7">
                                 <div class="hero-content">
                                     <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
-                                        <i class="far fa-book-open-reader"></i>Welcome To <span style="font-size:75px;">B</span>evyLamp
+                                        <i class="fas fa-scroll"></i>Welcome To <span style="font-size:75px;">B</span>evyLamp
                                     </h6>
                                     <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
                                         Start Your Beautiful And <span>Bright</span> Future
@@ -415,7 +424,7 @@ At BevyLamp, we believe in the power of education to shape not only the future o
                                 <a href="about.php" class="theme-btn">Discover More<i
                                         class="fas fa-arrow-right-long"></i></a>
                                 <div class="about-phone">
-                                    <div class="icon"><i class="fal fa-headset"></i></div>
+                                    <div class="icon"><i class="fas fa-headset"></i></div>
                                     <div class="number">
                                         <span>Call Now</span>
                                         <h6><a href="tel:+919083344600">9083344600</a></h6>
@@ -579,7 +588,7 @@ Guided by the light of education, we are committed to igniting young minds and i
                                 <p>Student</p>
                             </div>
                         </div>
-                        <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+                        <span class="testimonial-quote-icon"><i class="fas fa-quote-right"></i></span>
                     </div>
                     <div class="testimonial-item">
                        
@@ -622,9 +631,9 @@ Guided by the light of education, we are committed to igniting young minds and i
                      <div class="col-md-6 col-lg-4">
                         <div class="course-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Transport</span>
+                                <span class="course-tag"><i class="fas fa-bookmark"></i> Transport</span>
                                 <img src="assets/img/course/01.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                                <a href="course-single.html" class="btn"><i class="fas fa-link"></i></a>
                             </div>
                             <div class="course-content pt-20">
                                 
@@ -644,9 +653,9 @@ Guided by the light of education, we are committed to igniting young minds and i
                     <div class="col-md-6 col-lg-4">
                         <div class="course-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> 24*7 CCTV</span>
+                                <span class="course-tag"><i class="fas fa-bookmark"></i> 24*7 CCTV</span>
                                 <img src="assets/img/course/01.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                                <a href="course-single.html" class="btn"><i class="fas fa-link"></i></a>
                             </div>
                             <div class="course-content pt-20">
                                 
@@ -666,9 +675,9 @@ Guided by the light of education, we are committed to igniting young minds and i
                      <div class="col-md-6 col-lg-4">
                         <div class="course-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Meals</span>
+                                <span class="course-tag"><i class="fas fa-bookmark"></i> Meals</span>
                                 <img src="assets/img/course/01.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                                <a href="course-single.html" class="btn"><i class="fas fa-link"></i></a>
                             </div>
                             <div class="course-content pt-20">
                                 
@@ -688,9 +697,9 @@ Guided by the light of education, we are committed to igniting young minds and i
                     <div class="col-md-6 col-lg-4">
                         <div class="course-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Music</span>
+                                <span class="course-tag"><i class="fas fa-bookmark"></i> Music</span>
                                 <img src="assets/img/course/01.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+                                <a href="course-single.html" class="btn"><i class="fas fa-link"></i></a>
                             </div>
                             <div class="course-content pt-20">
                                 
@@ -710,7 +719,7 @@ Guided by the light of education, we are committed to igniting young minds and i
                     <div class="col-md-6 col-lg-4">
                         <div class="course-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Modern Classes</span>
+                                <span class="course-tag"><i class="fas fa-bookmark"></i> Modern Classes</span>
                                 <img src="assets/img/course/01.jpg" alt="">
                                 <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
                             </div>
@@ -732,7 +741,7 @@ Guided by the light of education, we are committed to igniting young minds and i
                      <div class="col-md-6 col-lg-4">
                         <div class="course-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Computer Lab</span>
+                                <span class="course-tag"><i class="fas fa-bookmark"></i> Computer Lab</span>
                                 <img src="assets/img/course/01.jpg" alt="">
                                 <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
                             </div>
@@ -889,7 +898,7 @@ Guided by the light of education, we are committed to igniting young minds and i
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> How Can do I apply ?
+                                        <span><i class="fas fa-question"></i></span> How Can do I apply ?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
@@ -923,7 +932,7 @@ Guided by the light of education, we are committed to igniting young minds and i
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span><i class="far fa-question"></i></span> What Payment Gateway You Support ?
+                                        <span><i class="fas fa-question"></i></span> What Payment Gateway You Support ?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -940,7 +949,7 @@ Guided by the light of education, we are committed to igniting young minds and i
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        <span><i class="far fa-question"></i></span> How Can I Cancel My Request ?
+                                        <span><i class="fas fa-question"></i></span> How Can I Cancel My Request ?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse"
@@ -976,9 +985,9 @@ Guided by the light of education, we are committed to igniting young minds and i
                                 in some form by injected humour words believable.
                             </p>
                             <ul class="footer-contact">
-                                <li><a href="tel:+21236547898"><i class="far fa-phone"></i>+91 8372850808</a></li>
-                                <li><i class="far fa-map-marker-alt"></i>Suravipally, Chopra, Uttar Dinajpur</li>
-                                <li><a href="#"><i class="far fa-envelope"></i><span>xyz@gmail.com</span></a></li>
+                                <li><a href="tel:+21236547898"><i class="fas fa-phone"></i>+91 8372850808</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i>Suravipally, Chopra, Uttar Dinajpur</li>
+                                <li><a href="#"><i class="fas fa-envelope"></i><span>xyz@gmail.com</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1051,7 +1060,7 @@ Guided by the light of education, we are committed to igniting young minds and i
     </footer>    <!-- footer area end -->
 
     <!-- scroll-top -->
-    <a href="#" id="scroll-top"><i class="far fa-arrow-up-from-arc"></i></a>
+    <a href="#" id="scroll-top"><i class="fas fa-arrow-up-from-arc"></i></a>
     <!-- scroll-top end -->
 </div>
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
